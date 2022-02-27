@@ -1,0 +1,19 @@
+{
+    "name": "nodejs-job-scheduler",
+    "version": "1.0.0",
+    "description": "Node.js Demo for jobs scheduler with one-time, recurrent and cancel implementation",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "keywords": [
+        "node.js",
+        "scheduler"
+    ],
+    "author": "Haris Shaikh",
+    "license": "ISC",
+    "dependencies": {
+        "node-schedule": "^2.1.0"
+    }
+}
